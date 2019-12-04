@@ -7621,8 +7621,19 @@ h1 {
 }
 
 #main-header {
-  background-image: url(../img/hypnotize.png);
   min-height: 28rem;
+}
+
+.no-webp #main-header {
+  background-image: url(public/img/hypnotize.png);
+}
+
+.webp #main-header {
+  background-image: url(public/img/hypnotize.webp);
+}
+
+.no-js #main-header {
+  background-image: url(public/img/hypnotize.png);
 }
 
 nav a {
